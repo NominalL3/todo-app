@@ -1,0 +1,19 @@
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin: 0;
+
+    .header-link {
+        color: #fff;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 18px;
+    }
+
+    .header-link:hover {
+        text-decoration: underline;
+    }
+}
+
