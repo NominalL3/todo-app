@@ -1,0 +1,18 @@
+.project-add-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #a668d524;
+    padding: 8px;
+    position: relative;
+    width: 21%;
+    height: 140px;
+    cursor: pointer;
+
+    .project-add-button {
+        font-size: 80px;
+        margin: 0;
+    }
+}

@@ -1,0 +1,41 @@
+.project-element {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #a668d524;
+    padding: 8px;
+    position: relative;
+    width: 21%;
+    height: 140px;
+
+    .delete-button {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        background-color: transparent;
+        border: none;
+        font-size: 18px;
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+    }
+
+    .delete-button:hover {
+        color: rgb(0, 0, 0, 0.5);
+    }
+
+    .project-link {
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        justify-content: space-between;
+        text-decoration: none;
+        color: black;
+
+        .project-title {
+            margin: 0;
+        }
+
+        .project-description {
+            margin: 0;
+        }
+    }
+}

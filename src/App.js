@@ -10,7 +10,6 @@ import TasksPage from './pages/TasksPage/TasksPage.tsx';
 function App() {
   return (
     <>
-    <Header />
       <div className="App">
         <Routes>
           <Route exact path="/" element={<ProjectSelectionPage />} />

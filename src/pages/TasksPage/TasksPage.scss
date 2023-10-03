@@ -1,5 +1,13 @@
 .tasks-page {
-    margin: 20px;
-    padding: 20px;
-    border: 1px solid #ccc;
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+
+    .task-status {
+        display: flex;
+        justify-content: center;
+        background-color: #f4f5f7;
+        width: 100%;
+        max-width: 270px;
+    }
 }

@@ -1,0 +1,41 @@
+.task {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    background-color: #f9f9f9;
+}
+
+.task h3 {
+    margin-top: 0;
+}
+
+.task div {
+    margin-bottom: 10px;
+}
+
+.task ul {
+    list-style: none;
+    padding: 0;
+}
+
+.task li {
+    margin-bottom: 5px;
+}
+
+.task textarea {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.task button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.task button:hover {
+    background-color: #0056b3;
+}
