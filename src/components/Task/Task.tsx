@@ -52,40 +52,6 @@ const Task: React.FC = () => {
       <div>
         <strong>Описание:</strong> {task.description}
       </div>
-      <div>
-        <strong>Дата создания:</strong> {task.creationDate}
-      </div>
-      <div>
-        <strong>Время в работе:</strong> {task.workTime}
-      </div>
-      <div>
-        <strong>Дата окончания:</strong> {task.endDate}
-      </div>
-      <div>
-        <strong>Приоритет:</strong> {task.priority}
-      </div>
-      <div>
-        <strong>Текущий статус:</strong> {task.status}
-      </div>
-      <div>
-        <strong>Вложенные файлы:</strong> {/* Здесь нужно реализовать загрузку и отображение файлов */}
-      </div>
-      <div>
-        <h4>Комментарии:</h4>
-        <ul>
-          {task.comments.map((comment, index) => (
-            <li key={index}>{comment}</li>
-          ))}
-        </ul>
-        <textarea
-          rows={3}
-          placeholder="Добавить комментарий"
-          value={newComment}
-          onChange={handleCommentChange}
-        />
-        <button onClick={addComment}>Добавить комментарий</button>
-      </div>
-      <button onClick={editTask}>Редактировать задачу</button>
     </div>
   );
 };

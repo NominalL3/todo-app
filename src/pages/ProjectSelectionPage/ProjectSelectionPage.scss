@@ -1,15 +1,16 @@
 .project-selection-page {
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-content: center;
+  align-items: center;
   width: 100%;
 
-  .projects-list {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 24px;
-    margin-top: 24px;
-    width: 100%;
-  }
+    .projects-list {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 24px;
+      margin-top: 24px;
+      width: 100%;
+    }
 }

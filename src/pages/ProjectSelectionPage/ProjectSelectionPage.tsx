@@ -15,18 +15,18 @@ const ProjectSelectionPage = () => {
 
   return (
     <>
-      <header>
-        <h1>Выбор проекта</h1>
-      </header>
-      <div className="project-selection-page">
-        <div className="projects-list">
-          <ProjectElement title="Задача" description="Описание" onDelete={handleDel} />
-          <ProjectElement title="Задача" description="Описание" onDelete={handleDel} />
-          <ProjectElement title="Задача" description="Описание" onDelete={handleDel} />
-          <ProjectElement title="Задача" description="Описание" onDelete={handleDel} />
-          <ProjectElement title="Задача" description="Описание" onDelete={handleDel} />
-          <ProjectAddElement onAdd={handleAdd} />
-        </div>
+      <div className='project-selection-page'>
+        <header>
+          <h1>Выбор проекта</h1>
+        </header>
+          <div className="projects-list">
+            <ProjectElement title="Задача" description="Описание" onDelete={handleDel} />
+            <ProjectElement title="Задача" description="Описание" onDelete={handleDel} />
+            <ProjectElement title="Задача" description="Описание" onDelete={handleDel} />
+            <ProjectElement title="Задача" description="Описание" onDelete={handleDel} />
+            <ProjectElement title="Задача" description="Описание" onDelete={handleDel} />
+            <ProjectAddElement onAdd={handleAdd} />
+          </div>
       </div>
     </>
   );
